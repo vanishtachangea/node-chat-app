@@ -44,14 +44,16 @@ const getUser=(id)=>{
 const getUsersInRoom=(room)=>{
     return users.filter((user)=> user.room === room)
 }
+
 module.exports ={
     addUser,
     removeUser,
     getUser,
-    getUsersInRoom
+    getUsersInRoom,
+    users
 }
-
 /*
+
 addUser({
     id:22,
     userName:'John',
@@ -90,4 +92,5 @@ const user = getUser(25);
 console.log(user);
 console.log("serss");
 const list = getUsersInRoom("talk77");
-console.log(list) */
+console.log(list) 
+*/

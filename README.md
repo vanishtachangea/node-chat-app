@@ -27,10 +27,9 @@ npm run start
 
 
 ### Next Steps
-1. Unit Testing
-2. Frontend using React
-3. Improve it to become a copy of Slack
-5. Deploy to AWS instead of heroku
+- Frontend using React
+- Improve it to become a copy of Slack
+
 
 
 
